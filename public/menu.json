@@ -1,0 +1,99 @@
+{ "menu": [
+    {
+        "id": "F1",
+        "name": "Cheese filled ravioli",
+        "type": "food",
+		"sub-type": "Pasta",
+		"course": "main",
+		"description": "Delicious filled pasta in tomato and basil sauce",
+		"price": 15.95
+		
+    },
+	{
+		"id": "F2",
+		"name": "Spaghetti Carbonara",
+		"type": "food",
+		"sub-type": "Pasta",
+		"course": "main",
+		"description": "Classic Italian pasta dish with eggs, cheese, pancetta, and black pepper.",
+		"price": 14.95,
+		"related_wine": "D4"
+	},
+    
+	{
+		"id": "F2",
+		"name": "Fettucine Alfredo",
+		"type": "food",
+		"sub-type": "Pasta",
+		"course": "main",
+		"description": "Hand-made fettucine in a creamy classic Alfredo sauce",
+		"price": 15.95,
+		"related_wine": "D3"
+	},
+	{
+		"id": "F3",
+		"name": "Veal brasato",
+		"type": "food",
+		"sub-type": "meat",
+		"course": "main",
+		"description": "Tender boneless veal shoulder cuts in red wine and slow-cooked",
+		"price": 17.95,
+		"related_wine": "D5"
+	},
+	{
+		"id": "F4",
+		"name": "Chicken parmigiana",
+		"type": "food",
+		"sub-type": "meat",
+		"course": "main",
+		"description": "Layer of thin-sliced lightly pan-fried chicken breast with tomato sauce",
+		"price": 17.95,
+		"related_wine": "D1"
+	},
+	{
+		"id": "D1",
+		"name": "Chianti classico",
+		"type": "drink",
+		"sub-type": "wine",
+		"category": "red",
+		"description": "A limpid ruby red wine with floral notes, dry and sapid flavor, from the Chicago",
+		"price": 35
+	},
+	
+	{
+		"id": "D2",
+		"name": "Pinot Noir",
+		"type": "drink",
+		"sub-type": "wine",
+		"category": "red",
+		"description": "A medium  body, medium-dry red with earthy flavor from the french region",
+		"price": 24
+	},
+	{
+		"id": "D3",
+		"name": "Pinot Grigio",
+		"type": "drink",
+		"sub-type": "wine",
+		"category": "white",
+		"description": "A delicate white wine from the french region of Burgundy",
+		"price": 24
+	},
+	{
+		"id": "D4",
+		"name": "Carbernet",
+		"type": "drink",
+		"sub-type": "wine",
+		"category": "red",
+		"description": "A bold and assertive red wine from the french region of Bordeaux",
+		"price": 24
+	},
+	{
+		"id": "D5",
+		"name": "Chardonny",
+		"type": "drink",
+		"sub-type": "wine",
+		"category": "white",
+		"description": "A dry,full-bodied white wine with moderate acidity, made with Chardonny",
+		"price": 26
+	}
+]}

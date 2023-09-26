@@ -1,0 +1,224 @@
+body, html {
+    height: 100%;
+    margin: auto;
+  }
+  
+  
+  .logo{
+    max-width: 30%;
+  }
+  
+  .topbar{
+    width: 100%;
+    background-color: #793802;
+    color: black;
+    height: 30px;
+    text-align: center;
+  }
+
+.hero-text {
+  text-align: center;
+  background-color: gray;
+  padding: 10px;
+}
+  
+
+  .button {
+    background-color: #FF7417; /* Pumpkin */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #793802;
+  } 
+  
+  #switch {
+    background-color: #FF7417; /* Pumpkin */
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+  }
+  
+  .header {
+    background-color: #FF7417;
+    text-align: center;
+    color: black;
+    padding: 20px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #793802; /* Spice */
+    text-align: center;
+    color: white;
+  }
+  
+  .topnav a {
+   /* float: center;  */
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #FF7417;
+    color: #793802;
+  } 
+  
+  .onecolumn {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    color: black;
+  }
+  
+  .column-left {
+    float: left;
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    vertical-align: middle;
+  }
+  
+  .column-right {
+    float: right;
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    vertical-align: middle;
+  }
+  
+  .column-image {
+   border-radius: 20px;
+   max-width: 60%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-content: center;
+  }
+  
+  .footer {
+    background-color: #FF7417;
+    text-align: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .column-left {
+      width: 100%;
+    }
+    .column-right {
+      width: 100%;
+    }
+
+    .logo {
+      max-width: 45%;
+    }
+  }
+
+  /* Style for the menu tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Style for the table headers */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Style for alternating rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for hover effect on rows */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Center align text in the first column */
+td:first-child {
+  text-align: center;
+}
+
+/* Additional styling for specific columns, adjust as needed */
+td:nth-child(3),
+td:nth-child(4) {
+  font-weight: bold;
+}
+
+/* Style for the menu section headers (e.g., "Food" and "Drinks") */
+.onecolumn h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Style for the entire menu section */
+.onecolumn {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.highlighted {
+  background-color: #793802; /* Change the background color to highlight */
+  color: black; /* Change the text color */
+  /* Add any other desired styles for highlighting */
+}
+
+
+@media screen and (max-width: 1024px) {
+  .column-left,
+  .column-right {
+    width: 100%;
+  }
+
+  .logo {
+    max-width: 45%;
+  }
+}
